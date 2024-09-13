@@ -18,7 +18,7 @@ body {
   overflow: hidden;
   color: #111;
   background: #fff;
-  max-width: 998px;
+  max-width: 1300px;
 }
 #es-garnier.es-garnier * {
   box-sizing: border-box;
@@ -696,6 +696,28 @@ body {
   }
 
 }
+
+@media screen and (min-width: 1077px) {
+  #es-garnier.es-garnier .es-active-ingredients__container {
+    height: 585px;
+    padding-top: 20px;
+  }
+  #es-garnier.es-garnier .es-active-ingredients__image {
+    width: 47%;
+  }
+  #es-garnier.es-garnier .es-active-ingredients__item--left .blue-line {
+    width: 64%;
+  }
+  #es-garnier.es-garnier .es-active-ingredients__item--right .white-line-1 {
+    width: 100%;
+  }
+  #es-garnier.es-garnier .es-active-ingredients__item--right-2 {
+    right: 8%;
+  }
+  #es-garnier.es-garnier .es-active-ingredients__item--right-2 .white-line-2 {
+    width: 52%;
+  }
+}
 #es-garnier.es-garnier .es-apply {
   margin: 48px 0;
 }
@@ -1273,6 +1295,55 @@ body {
   }
   #es-garnier.es-garnier .es-cross__container {
     max-width: none;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  
+  #es-garnier.es-garnier .es-ingredients__cards {
+    max-width: 600px;
+  }
+  #es-garnier.es-garnier .es-cross__steps-container-inner {
+    max-width: 80%;
+  } 
+}
+
+@media screen and (min-width: 1300px) {
+  #es-garnier.es-garnier .es-evaluation__text {
+    max-width: 407px;
+  }
+
+  #es-garnier.es-garnier .es-evaluation__packshot {
+    margin-right: 60px;
+  }
+
+  #es-garnier.es-garnier .es-evaluation__text-title {
+    font-size: 30px;
+  }
+
+  #es-garnier.es-garnier .es-evaluation__text-subtitle {
+    font-size: 25px;
+  }
+
+  #es-garnier.es-garnier .es-apply {
+    max-width: 1200px;
+  }
+  #es-garnier.es-garnier .es-apply__container {
+      gap: 50px;
+  }
+  #es-garnier.es-garnier .es-apply__step {
+    width: 300px;
+  }
+
+  #es-garnier.es-garnier .es-cross__steps-container-inner {
+    max-width: 1000px;
+    row-gap: 73px;
+  } 
+  #es-garnier.es-garnier .es-cross__container {
+    gap: 36px;
+  }
+  #es-garnier.es-garnier .es-cross__product {
+    max-width: 240px;
   }
 }
 
