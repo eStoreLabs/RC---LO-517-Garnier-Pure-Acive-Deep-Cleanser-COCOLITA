@@ -1274,6 +1274,16 @@ body {
   }
 }
 @media screen and (min-width: 998px) {
+
+  #es-garnier.es-garnier .es-evaluation {
+    height: 520px;
+    background-size: 100%;
+  }
+  #es-garnier.es-garnier .es-evaluation__packshot {
+    max-width: 180px;
+    padding-top: 65px;
+    margin-left: 0;
+  }
   #es-garnier.es-garnier .es-info__title {
     font-size: 22px;
   }
